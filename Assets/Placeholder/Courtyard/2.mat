@@ -1,0 +1,375 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 2
+  m_Shader: {fileID: 4800000, guid: 74442349f87061f4e98add9f629bb9b2, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _ALPHATEST_ON
+  - _FOG_OVERRIDE_ON
+  - _USE_AFFINE_TEXTURES_ON
+  - _USE_AMBIENT_OVERRIDE
+  - _USE_FOG_ON
+  - _USE_POINT_FILTER_ON
+  m_InvalidKeywords:
+  - _USEVERTEXCOLOR_ON
+  - _USE_AMBIENT_OVERRIDE_ON
+  - _USE_GLOBAL_FOG_ON
+  - _USE_SCREEN_SPACE_SHADOWS_ON
+  - _USE_VERTEX_COLOR_SNAPPING_ON
+  - _USE__FOG_OVERRIDE_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2450
+  stringTagMap:
+    RenderType: Opaque
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: dbfe1f70002bd1b4c9c0775157d19c3f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CLUT:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cube:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cubemap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DitherPattern:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissiveTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LODTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: dbfe1f70002bd1b4c9c0775157d19c3f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectionCubemap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectionTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecularMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints:
+    - _ColorBitDepth: 256
+    - _FixedPointPrecision: 125
+    - _ResolutionLimit: 85
+    - _SnapsPerUnit: 250
+    m_Floats:
+    - _AdvRenderingHelpbox: 1
+    - _AffineBlend: 0.75
+    - _AffineCameraClipBias: -1
+    - _AffineStrength: 1
+    - _AffineTextureWarping: 1
+    - _AffineTextureWarpingWeight: 1
+    - _AffineUVsToggle: 1
+    - _AffineUVsWarningHelpbox: 0
+    - _AlphaClip: 1
+    - _AlphaClippingDitherIsEnabled: 0
+    - _AlphaToMask: 0
+    - _AlphatoCoverage: 0
+    - _AmbientLight: 0.809
+    - _AmbientLightingStrength: 1
+    - _AmbientSHLighting: 0
+    - _ApplyOcclusionOnAlbedo: 1
+    - _BRDFMode: 1
+    - _Blend: 0
+    - _BlendOp: 0
+    - _BlendOpAlpha: 0
+    - _BumpScale: 1
+    - _ColorBitDepth: 32
+    - _ColorBitDepthOffset: 0
+    - _ColorDepth: 113.4
+    - _ColorMask: 15
+    - _Cul: 0
+    - _Cull: 2
+    - _CustomDepthOffset: 0
+    - _Cutoff: 1
+    - _CutoutThreshold: 0.5
+    - _DepthOffset: 0.0001
+    - _DetailNormalMapScale: 1
+    - _DiffModel: 0
+    - _DistFadeMax: 100
+    - _DistFadeMin: 0
+    - _DistortionAmount: 0.1
+    - _DistortionScale: 1
+    - _DistortionSpeed: 1
+    - _DitherThreshold: 0.5
+    - _DoubleSidedNormalMode: 0
+    - _DrawDist: 1
+    - _DrawDistanceOverrideMode: 0
+    - _DstBlend: 0
+    - _DstBlendAlpha: 0
+    - _EdgeSnappingStrength: 0.8
+    - _EdgeThreshold: 0.5
+    - _EmissionBakedMultiplier: 1
+    - _EmissiveHelpbox: 1
+    - _EmissiveStrength: 1
+    - _EmissiveTextureFiltering: 0
+    - _EmissiveToggle: 0
+    - _FOG_OVERRIDE: 1
+    - _FarDistance: 100
+    - _FixedPointPrecision: 140.5
+    - _FlatShading: 0
+    - _FogDensity: 0.469
+    - _FogDepthMax: 10
+    - _FogDepthMin: 0
+    - _FogEnabled: 1
+    - _FogEnd: 8.7
+    - _FogFar: 10
+    - _FogNear: 0
+    - _FogStart: 2.9
+    - _FogWeight: 1
+    - _GlobalFogDepthMax: 20
+    - _GlobalFogDepthMin: 0
+    - _GlobalFogEnabled: 1
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _GridSize: 0.03125
+    - _HalfLambertWrapStrength: 0.5
+    - _IndirectLightingStrength: 1
+    - _IndirectLightingSupport: 0
+    - _InvertSpecular: 0
+    - _LODAmt: 0
+    - _LightIntensity: 0.5
+    - _LightIntensityMultiplier: 1
+    - _LightingBaked: 1
+    - _LightingDynamic: 1
+    - _LightingMode: 0
+    - _LightingTexelSize: 0
+    - _LocalFogDepthMax: 20
+    - _LocalFogDepthMin: 0
+    - _LocalFogEnabled: 1
+    - _LocalSnapResolutionX: 160
+    - _LocalSnapResolutionY: 120
+    - _LockButtonHelpbox: 1
+    - _MainTextureFiltering: 0
+    - _MaxLightIntensity: 1.24
+    - _Metallic: 0
+    - _Mode: 0
+    - _NearDistance: 1
+    - _NormalMapDepth: 1
+    - _ObjectDithering: 1
+    - _OcclusionStrength: 1
+    - _OffsetFactor: 0
+    - _OffsetUnits: 0
+    - _Parallax: 0.02
+    - _PerTexelHelpbox: 0
+    - _PerVertexSpecular: 0
+    - _PerspectiveShiftStrength: 1
+    - _PhongFlatWarning: 0
+    - _PixelSnap: 1
+    - _PrecisionColorOverrideMode: 0
+    - _PrecisionGeometryOverrideMode: 0
+    - _PrecisionGeometryWeight: 1
+    - _QueueOffset: 0
+    - _Reflection: 0
+    - _ReflectionBlendMode: 0
+    - _ReflectionDirectionMode: 0
+    - _RenderMode: 0
+    - _RenderQueueCategory: 0
+    - _SampleGI: 0
+    - _ScreenSpaceShadowIntensity: 1
+    - _ShaderOptimizerEnabled: 0
+    - _ShadingEvaluationMode: 0
+    - _ShadowBands: 4
+    - _ShadowBias: 0.05
+    - _ShadowColorHelpbox: 0
+    - _ShadowFalloffContrast: 1
+    - _ShadowFalloffPower: 2
+    - _ShadowIntensity: 0.7
+    - _ShadowSmoothing: 0.05
+    - _ShadowSoftness: 0.5
+    - _ShadowSteps: 4
+    - _ShadowStrength: 0.5
+    - _ShadowThreshold: 0.5
+    - _Smoothness: 0.5
+    - _SmoothnessTextureChannel: 0
+    - _SnapFactor: 0.5
+    - _SnapResolutionX: 160
+    - _SnapResolutionY: 120
+    - _SnapsPerUnit: 54.6
+    - _SpecModel: 0
+    - _Specular: 0
+    - _SpecularGloss: 32
+    - _SpecularHighlights: 1
+    - _SpecularShading: 0
+    - _SpecularStrength: 0.1
+    - _SrcBlend: 1
+    - _SrcBlendAlpha: 1
+    - _StencilComparison: 0
+    - _StencilFailOp: 0
+    - _StencilPassOp: 0
+    - _StencilReadMask: 255
+    - _StencilReference: 0
+    - _StencilWriteMask: 255
+    - _StencilZFailOp: 0
+    - _Surface: 0
+    - _SurfaceShadingModel: 0
+    - _TextureFilterMode: 0
+    - _TextureWarpingIntensity: 1
+    - _USE_AFFINE_TEXTURES: 1
+    - _USE_AMBIENT_OVERRIDE: 1
+    - _USE_FOG: 1
+    - _USE_GLOBAL_FOG: 1
+    - _USE_GLOBAL_SNAP_RESOLUTION: 1
+    - _USE_POINT_FILTER: 1
+    - _USE_SCREEN_SPACE_SHADOWS: 1
+    - _USE_VERTEX_COLOR_SNAPPING: 1
+    - _USE__FOG_OVERRIDE: 1
+    - _UVAnimationMode: 0
+    - _UVSec: 0
+    - _Unlit: 0
+    - _UnlitBrightness: 1
+    - _UnlitNote: 0
+    - _UseFog: 1
+    - _UseGlobalSnapResolution: 1
+    - _UseVertexColor: 1
+    - _UseVertexColors: 0
+    - _VertSnappingHelpbox: 1
+    - _VertSnappingToggle: 1
+    - _VertexColorBlendMode: 0
+    - _VertexColorMix: 1
+    - _VertexColorMode: 0
+    - _VertexInaccuracy: -1
+    - _VertexJitter: 0
+    - _VertexJitterAmount: 0.01
+    - _VertexRoundingAccuracy: 128
+    - _VertexSnapStep: 256
+    - _VertexSnappingDetail: 100
+    - _VertexSnappingPrecision: 12
+    - _VertexSnappingResolution: 320
+    - _ZBias: -1
+    - _ZTest: 4
+    - _ZWrite: 1
+    - __dirty: 1
+    - m_end_AdvOp: 0
+    - m_end_AffineUVs: 0
+    - m_end_Emissive: 0
+    - m_end_Lighting: 0
+    - m_end_MainOps: 0
+    - m_end_RenderingOps: 0
+    - m_end_StencilOps: 0
+    - m_end_VertSnapping: 0
+    - m_start_AdvOp: 0
+    - m_start_AffineUVs: 0
+    - m_start_Emissive: 0
+    - m_start_Lighting: 1
+    - m_start_MainOps: 0
+    - m_start_RenderingOps: 0
+    - m_start_StencilOps: 0
+    - m_start_VertSnapping: 0
+    - shader_is_using_thry_editor: 69
+    - shader_master_label: 0
+    m_Colors:
+    - _AlphaClippingScaleBiasMinMax: {r: 1, g: 0, b: 0, a: 1}
+    - _AmbientOverrideColor: {r: 0.4811321, g: 0.4811321, b: 0.4811321, a: 1}
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _CubemapColor: {r: 0, g: 0, b: 0, a: 0}
+    - _DoubleSidedConstants: {r: 1, g: 1, b: 1, a: 0}
+    - _DrawDistanceOverride: {r: 100, g: 10000, b: 0, a: 0}
+    - _Emission: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FogColor: {r: 0.7830189, g: 0.7497775, b: 0.7497775, a: 1}
+    - _FogDepths: {r: 10, g: 50, b: 0, a: 0}
+    - _GlobalFogColor: {r: 0.8018868, g: 0.616545, b: 0.616545, a: 1}
+    - _LocalFogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _MainColor: {r: 1, g: 1, b: 1, a: 1}
+    - _PrecisionColorOverrideParameters: {r: 0, g: 0, b: 0, a: 0}
+    - _PrecisionGeometryOverrideParameters: {r: 0, g: 0, b: 0, a: 0}
+    - _ReflectionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _ShadowColor: {r: 0, g: 0, b: 0, a: 1}
+    - _SnapStrengthColor: {r: 1, g: 1, b: 1, a: 0}
+    - _SpecularTint: {r: 1, g: 1, b: 1, a: 1}
+    - _TargetResolution: {r: 640, g: 360, b: 0, a: 0}
+    - _UVAnimationParameters: {r: 1, g: 1, b: 0, a: 0}
+    - _UVAnimationParametersFrameLimit: {r: 0, g: 60, b: 0, a: 0}
+  m_BuildTextureStacks: []

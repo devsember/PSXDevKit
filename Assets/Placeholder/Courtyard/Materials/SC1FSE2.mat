@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SC1FSE2
+  m_Shader: {fileID: 4800000, guid: 0492bb19225c3f44e8879402cb496616, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _USE_AFFINE_TEXTURES_ON
+  - _USE_AMBIENT_OVERRIDE
+  - _USE_POINT_FILTER_ON
+  m_InvalidKeywords:
+  - _USE_AMBIENT_OVERRIDE_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap:
+    RenderType: Transparent
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: dbfe1f70002bd1b4c9c0775157d19c3f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints:
+    - _ColorBitDepth: 64
+    - _ResolutionLimit: 64
+    - _SnapsPerUnit: 64
+    m_Floats:
+    - _AlphaClip: 0
+    - _AmbientLight: 0.2
+    - _ColorBitDepthOffset: 0
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _DstBlend: 10
+    - _LightIntensityMultiplier: 1
+    - _SrcBlend: 5
+    - _Surface: 1
+    - _USE_AFFINE_TEXTURES: 1
+    - _USE_AMBIENT_OVERRIDE: 1
+    - _USE_POINT_FILTER: 1
+    - _ZWrite: 0
+    m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
